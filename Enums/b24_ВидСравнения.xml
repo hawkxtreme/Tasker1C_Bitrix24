@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="602cc65a-0b03-4d60-82a6-b539647159b0">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.b24_ВидСравнения" category="Ref">
+				<xr:TypeId>9b5cc650-e543-48c0-a635-2cf2677e72ad</xr:TypeId>
+				<xr:ValueId>21713593-18ba-4025-9eca-be042e2755d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.b24_ВидСравнения" category="Manager">
+				<xr:TypeId>bc3e766f-f4f5-4d0e-bb3d-9fab191a009e</xr:TypeId>
+				<xr:ValueId>3f75d8e0-1d8e-4e92-ac34-7d7aa73d38b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.b24_ВидСравнения" category="List">
+				<xr:TypeId>4b7b3dcd-b98c-438a-9a3a-262504661e87</xr:TypeId>
+				<xr:ValueId>8cd964e8-f861-4827-9bf5-888bace57156</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>b24_ВидСравнения</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид сравнения (Битрикс24)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="7116626f-742e-438a-84f1-0c59cca40e91">
+				<Properties>
+					<Name>Равно</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Равно</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bb79688f-5540-42a8-9b38-2c25b09cd206">
+				<Properties>
+					<Name>НеРавно</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не равно</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>!</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cd6c613f-0516-4ed4-947c-6ef0f3f5986c">
+				<Properties>
+					<Name>Меньше</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Меньше</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>&lt;</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0d6efae5-cd0b-42ef-a956-c616ab29f75f">
+				<Properties>
+					<Name>МеньшеЛибоРавно</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Меньше либо равно</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>&lt;=</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="93f13d3a-6863-49ef-92ea-df730efe053f">
+				<Properties>
+					<Name>Больше</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Больше</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>&gt;</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fad0f3bb-f168-4412-9417-3ff65292e3ee">
+				<Properties>
+					<Name>БольшеЛибоРавно</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Больше либо равно</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>&gt;=</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

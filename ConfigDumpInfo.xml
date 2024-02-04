@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
+	<ConfigVersions>
+		<Metadata name="Catalog.b24_Подразделения" id="a7fb2c6c-1353-42a0-a8e1-353a4ff93156" configVersion="1310be6ea1fed2cc773f8c97a935eb66390d69ff">
+			<Metadata name="Catalog.b24_Подразделения.Attribute.ID" id="2bf5bd2b-1c96-449c-a1e3-240dece582b6"/>
+			<Metadata name="Catalog.b24_Подразделения.Attribute.Руководитель" id="77a37f4c-e499-4284-9449-21c0f13ac008"/>
+		</Metadata>
+		<Metadata name="Catalog.b24_Подразделения.ManagerModule" id="a7fb2c6c-1353-42a0-a8e1-353a4ff93156.3" configVersion="127365a24c9789974ac60f4150907e928f430b7d"/>
+		<Metadata name="Catalog.b24_Подразделения.ObjectModule" id="a7fb2c6c-1353-42a0-a8e1-353a4ff93156.0" configVersion="6fca887721d3fd042fe68e4ee9aaf0f1f4dc7cb9"/>
+		<Metadata name="Catalog.b24_СайтИнтеграции" id="379c4629-d723-4ffd-9eb4-50443f2affb8" configVersion="e73238c7736a8e659ea01c3a1609cef57871889b">
+			<Metadata name="Catalog.b24_СайтИнтеграции.Attribute.ИдентификаторПользователя" id="0d56554b-c836-433d-a142-8a007670e870"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.ПользовательскиеПоля_Задачи.Attribute.ВнешнийПуть" id="13e8993d-0a17-4dfa-8489-30a6601ae659"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.ОбъектыОбмена" id="142d7a0f-f839-4a73-acfe-2966bacc9f03"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.Фильтры_Пользователи" id="237d292a-6c01-4d79-9270-8c6a4342d31e"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.Attribute.СекретныйКод" id="25913b1c-1b09-4bf4-9c4e-f1c486674838"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.Attribute.URL" id="305cd3fb-b0a3-47df-b7f8-d1907e7e681e"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.ПользовательскиеПоля_Задачи.Attribute.ВнутреннийПуть" id="34463537-9a9b-4a1a-b798-420166216bbf"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.ОбъектыОбмена.Attribute.Загрузка" id="3af16bc1-29e9-41af-ac8f-41a10f86f878"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.ОбязательныеРеквизиты_Задачи" id="3f9b95bd-d753-4c02-8996-1906b0901b5b"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.Фильтры_Задачи.Attribute.Значение" id="4084107d-1285-4af9-a05b-97c8749250f8"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.Фильтры_Задачи.Attribute.Ключ" id="5e788c35-95c8-4b74-b24d-8aee087bb29f"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.Attribute.Активно" id="63537210-450e-4e65-b1ed-50c80556c4f2"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.Фильтры_Задачи" id="6ff860c5-9b16-4111-a268-4be7a808e7dc"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.ОбъектыОбмена.Attribute.Выгрузка" id="81760596-3700-4e17-8e91-f359b84fc2f9"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.Фильтры_Пользователи.Attribute.Значение" id="824828e1-750b-4801-a6e9-b5f48c78bd3a"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.Command.ВыполнитьОбмен" id="8625312d-7620-4b5f-8e42-7f77290bd065"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.ОбъектыОбмена.Attribute.Объект" id="8e3cdfb0-dfbd-4402-8e92-e41fe85f086f"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.ПользовательскиеПоля_Задачи" id="aaa7ac1e-b1e6-4dc1-acca-c4cd0a4ac43c"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.ОбязательныеРеквизиты_Задачи.Attribute.Значение" id="b74b1051-45d9-45f3-9843-e8a2f423eb6b"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.ПользовательскиеПоля_Задачи.Attribute.Тип" id="b99a8b1b-3cb1-4227-9ddb-f3f64ca86867"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.Фильтры_Задачи.Attribute.ВидСравнения" id="bb8ca88a-7b86-4b77-8b82-5cbb2b109385"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.Фильтры_Пользователи.Attribute.Ключ" id="c56c091d-5e1c-4972-8cca-34d5f0144ca5"/>
+			<Metadata name="Catalog.b24_СайтИнтеграции.TabularSection.ОбязательныеРеквизиты_Задачи.Attribute.Ключ" id="c6733a3e-677b-43b9-a726-53e0ecfe9b85"/>
+		</Metadata>
+		<Metadata name="Catalog.b24_СайтИнтеграции.Command.ВыполнитьОбмен.CommandModule" id="8625312d-7620-4b5f-8e42-7f77290bd065.2" configVersion="0145a533b4cce67e57dbf192de8e2b26c9cd9087"/>
+		<Metadata name="Catalog.b24_СайтИнтеграции.Form.ФормаВыбора" id="9ea16379-9407-4bb1-a8c9-287b5b839765" configVersion="f8287bd7e389fe70c474081f0a9ace0791b43ade"/>
+		<Metadata name="Catalog.b24_СайтИнтеграции.Form.ФормаВыбора.Form" id="9ea16379-9407-4bb1-a8c9-287b5b839765.0" configVersion="1f07201bc82b0b5abc5fa54b1468d814f14f7a8a"/>
+		<Metadata name="Catalog.b24_СайтИнтеграции.Form.ФормаСписка" id="0a2120bb-6530-43b9-b033-8403402452ed" configVersion="1ccb35fc19c423497c6cdd530fa7a8242ab0c062"/>
+		<Metadata name="Catalog.b24_СайтИнтеграции.Form.ФормаСписка.Form" id="0a2120bb-6530-43b9-b033-8403402452ed.0" configVersion="704418a26cc0950844708ec0b8b0ff072fa99bf8"/>
+		<Metadata name="Catalog.b24_СайтИнтеграции.Form.ФормаЭлемента" id="2a5bbd57-6147-4304-b0ea-f5ab623aee41" configVersion="c0675204a06607723620b66c154c1448b916fe4c"/>
+		<Metadata name="Catalog.b24_СайтИнтеграции.Form.ФормаЭлемента.Form" id="2a5bbd57-6147-4304-b0ea-f5ab623aee41.0" configVersion="457f82ff84bf6b14ded2f632146caf65741a5593"/>
+		<Metadata name="Catalog.b24_СайтИнтеграции.ManagerModule" id="379c4629-d723-4ffd-9eb4-50443f2affb8.3" configVersion="f5f2af75a86bb8edf98101f564cde71cdd06b991"/>
+		<Metadata name="Catalog.b24_СайтИнтеграции.ObjectModule" id="379c4629-d723-4ffd-9eb4-50443f2affb8.0" configVersion="af65f7a054d51dd824cca9b82ccae1166a626e92"/>
+		<Metadata name="Catalog.b24_СтатусыЗадачСайта" id="cf17cdc9-b053-4a46-ac61-6f2d7f1d9412" configVersion="19ad81b4890fbe78751b88ed9b0fccd5b3fb0c43">
+			<Metadata name="Catalog.b24_СтатусыЗадачСайта.Attribute.Статус" id="35739c3a-0a8f-43b6-886b-59f77df77d0a"/>
+			<Metadata name="Catalog.b24_СтатусыЗадачСайта.Attribute.ЧисловоеЗначение" id="9a7f2d44-cf6c-4904-b2a4-7c636f529473"/>
+			<Metadata name="Catalog.b24_СтатусыЗадачСайта.Attribute.ЗагружатьИзБитрикс24" id="d1ea19bb-26d1-401f-8a16-d3ef10028d16"/>
+			<Metadata name="Catalog.b24_СтатусыЗадачСайта.Command.b24_ИнициализироватьСтатусыЗадачСайта" id="e3aef657-bb91-4c0d-932d-1f714cd7510b"/>
+		</Metadata>
+		<Metadata name="Catalog.b24_СтатусыЗадачСайта.Command.b24_ИнициализироватьСтатусыЗадачСайта.CommandModule" id="e3aef657-bb91-4c0d-932d-1f714cd7510b.2" configVersion="068d6f05d48c201252cb92d25cd634fed4da5b2a"/>
+		<Metadata name="Catalog.b24_СтатусыЗадачСайта.Help" id="cf17cdc9-b053-4a46-ac61-6f2d7f1d9412.1" configVersion="18698c8d19fc0ceba337ed4ad8c0bcaa7f6ab011"/>
+		<Metadata name="Catalog.b24_СтатусыЗадачСайта.ManagerModule" id="cf17cdc9-b053-4a46-ac61-6f2d7f1d9412.3" configVersion="6ea3223e0fd020809c28b7a164055f48e21e99eb"/>
+		<Metadata name="Catalog.ВидыКонтактнойИнформации" id="5e999308-acdf-4339-b5e0-75b1094c97b8" configVersion="01f180eff85075016a4ec42c7625495743f9fab9"/>
+		<Metadata name="Catalog.ИдентификаторыОбъектовМетаданных" id="22813b2b-a1fb-4dab-a5fb-7b3f95a5fcd1" configVersion="457b6e3f6299451dfd380a076377efd41531c840"/>
+		<Metadata name="Catalog.ИдентификаторыОбъектовРасширений" id="dcc4d74b-4949-4339-bcc8-523865feedb5" configVersion="63c05ad3f87ac35bdc86cb5d834c35e2d970d828"/>
+		<Metadata name="Catalog.Пользователи" id="d28f0b73-2579-41bd-99fe-3406d45f6fed" configVersion="5bbd8d293cd6ccdeabc6cc94e5503df7cc55da7c"/>
+		<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты" id="3f4f93db-d712-4fa2-a9a0-05c72acaf9f7" configVersion="881c96f74ae40f8a3f210be1e1990ba31d5a5c0a">
+			<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.b24_Подразделение" id="21cc40ed-6cfc-404d-849f-1f1430657098"/>
+			<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.b24_ОтправлятьВБитрикс24" id="674ab1e0-70cb-4531-bfdc-ce74745df4a9"/>
+		</Metadata>
+		<Metadata name="Catalog.узЗадачи" id="f954300d-2b44-4656-9e26-cf2dd35227fe" configVersion="76e355a5b6e2f0871c1b4fe9772407eb306929c8">
+			<Metadata name="Catalog.узЗадачи.TabularSection.Комментарии.Attribute.Автор" id="2492a5ec-cfdf-4393-8731-04a94750205e"/>
+			<Metadata name="Catalog.узЗадачи.Attribute.Автор" id="37f192c7-0938-44df-9581-ab15161dec74"/>
+			<Metadata name="Catalog.узЗадачи.Attribute.Контрагент" id="3da46c31-a8ab-4e5e-8f29-382d652e2382"/>
+			<Metadata name="Catalog.узЗадачи.TabularSection.Комментарии.Attribute.Комментарий" id="42194a99-ee73-4c2c-8799-c885d13839dc"/>
+			<Metadata name="Catalog.узЗадачи.TabularSection.Комментарии" id="6b676c88-efe6-4b69-a56c-6b0fdff4cae9"/>
+			<Metadata name="Catalog.узЗадачи.TabularSection.Комментарии.Attribute.b24_ID" id="72d121ec-8da4-4071-8f3b-3e43b9ad554d"/>
+			<Metadata name="Catalog.узЗадачи.Attribute.Исполнитель" id="9ea5f388-00c9-4f57-a233-25cd95099a28"/>
+			<Metadata name="Catalog.узЗадачи.Attribute.b24_ПодразделениеИсполнитель" id="c228a929-599f-4f97-82d9-bbece9e433e7"/>
+			<Metadata name="Catalog.узЗадачи.TabularSection.Комментарии.Attribute.ДатаКомментария" id="c74027cc-6d7b-483f-b218-1d52df977a58"/>
+			<Metadata name="Catalog.узЗадачи.Attribute.НомерВнешнейЗаявки" id="ee31ec7e-30e4-48d6-a7db-b7764dd2a6f6"/>
+		</Metadata>
+		<Metadata name="Catalog.узЗадачи.Form.ФормаЭлемента" id="c389b651-810f-45f3-8acc-820b09aa4d98" configVersion="e5ba7bad876e3dcda9a870ce47d817c707d1d66f"/>
+		<Metadata name="Catalog.узЗадачи.Form.ФормаЭлемента.Form" id="c389b651-810f-45f3-8acc-820b09aa4d98.0" configVersion="fb9778e270f9285c10f72ebe4f164348128efbc9"/>
+		<Metadata name="Catalog.узЗадачи.ObjectModule" id="f954300d-2b44-4656-9e26-cf2dd35227fe.0" configVersion="6243a8b6e85b7faecd86460d2e3d298c2f274275"/>
+		<Metadata name="Catalog.узКонтрагенты" id="2d608d03-ab4a-43cc-ab7b-f0adfbb0c23d" configVersion="5db7e8b4f16d17d2e40a3779159ec7568d2bfdd1">
+			<Metadata name="Catalog.узКонтрагенты.TabularSection.КонтактнаяИнформация.Attribute.Вид" id="1b3ca219-9618-4c86-9e17-247b99382250"/>
+			<Metadata name="Catalog.узКонтрагенты.TabularSection.КонтактнаяИнформация.Attribute.АдресЭП" id="2a18661d-e6cf-48a4-81f0-15656eab069b"/>
+			<Metadata name="Catalog.узКонтрагенты.TabularSection.КонтактнаяИнформация" id="5969d671-c454-45be-ad82-7089f438f199"/>
+			<Metadata name="Catalog.узКонтрагенты.Attribute.b24_Уволен" id="756c82b9-b1ce-45a2-a9b2-bd0ab48c82d4"/>
+			<Metadata name="Catalog.узКонтрагенты.Attribute.b24_Подразделение" id="863453ea-f6a6-407b-a299-8f2ef76db0c7"/>
+			<Metadata name="Catalog.узКонтрагенты.Attribute.b24_ID" id="93cbacbc-5fbf-4211-bcc8-4abdda85f882"/>
+		</Metadata>
+		<Metadata name="Catalog.узСтатусыЗадачи" id="699b407b-5e03-4149-bc70-b1885c054498" configVersion="dce0832473c0e74662b944127f3802c7931daa56"/>
+		<Metadata name="CommandGroup.b24_Битрикс24" id="d72497b6-cb2e-4115-8ea0-9ef90a7e0551" configVersion="6d0b5320c6fc2df427c28421601a722ea9298cc1"/>
+		<Metadata name="CommonCommand.b24_Выгрузить" id="5c50fc9b-ce10-4346-995c-fa7a2f7e0ddc" configVersion="3b13d4066dd2aa475d01fbe01982fe5db275f6e9"/>
+		<Metadata name="CommonCommand.b24_Выгрузить.CommandModule" id="5c50fc9b-ce10-4346-995c-fa7a2f7e0ddc.2" configVersion="dd93ab4ecf1e0020fae0e58ada64dd1434c8b046"/>
+		<Metadata name="CommonCommand.b24_ПередатьЗадачу" id="ba9be40d-d918-4e6c-8146-926f5ec41c47" configVersion="4ef62230a0fb672e59767bbf0fd1e372eb05d574"/>
+		<Metadata name="CommonCommand.b24_ПередатьЗадачу.CommandModule" id="ba9be40d-d918-4e6c-8146-926f5ec41c47.2" configVersion="d5526ae0933cf9cb818d11ef64d369140893c3c5"/>
+		<Metadata name="CommonForm.b24_ПередачаЗадачи" id="03dab787-fec2-4f4b-b5fa-1cbf99d02d79" configVersion="109c4e93a33caeae9746a6e0ae61d4441fd1c57f"/>
+		<Metadata name="CommonForm.b24_ПередачаЗадачи.Form" id="03dab787-fec2-4f4b-b5fa-1cbf99d02d79.0" configVersion="02fe875dbe37c0733aa0d2a7fb5e20c7bf3e45cc"/>
+		<Metadata name="CommonForm.b24_ФормаВыборРеквизитаШапкиОбъекта" id="c28a48fd-1697-44fd-8348-1fabb3c9a424" configVersion="ba440ac1132f76dff253170fad87acf26c36f1d6"/>
+		<Metadata name="CommonForm.b24_ФормаВыборРеквизитаШапкиОбъекта.Form" id="c28a48fd-1697-44fd-8348-1fabb3c9a424.0" configVersion="c95d25b0cf8a76f03b1293493466294fc8f79afa"/>
+		<Metadata name="CommonForm.b24_ФормаВыбораПользовательскихПолей" id="461719ee-e588-46fe-958c-3d725b17f287" configVersion="802721c5d08672cf8cda84dea43a0ed31e805d75"/>
+		<Metadata name="CommonForm.b24_ФормаВыбораПользовательскихПолей.Form" id="461719ee-e588-46fe-958c-3d725b17f287.0" configVersion="45d04f6411b8b61bb18bf6eca72e2614de142e20"/>
+		<Metadata name="CommonModule.b24_API" id="ec184f1c-ef10-45ea-9e19-ca8dae4b5fd2" configVersion="66d80ecb81038aa286dc3a8c8d76fe3588aeebbc"/>
+		<Metadata name="CommonModule.b24_API.Module" id="ec184f1c-ef10-45ea-9e19-ca8dae4b5fd2.0" configVersion="0ac1ffc8e41feedc72ba1081f53ce8f18bf0111f"/>
+		<Metadata name="CommonModule.b24_APIПовтИсп" id="c4b5b1da-9e9e-45f2-9493-a9a420b5e5c0" configVersion="b376bce1036a445025df412eb3691b2558bedefc"/>
+		<Metadata name="CommonModule.b24_APIПовтИсп.Module" id="c4b5b1da-9e9e-45f2-9493-a9a420b5e5c0.0" configVersion="fe00724f26c09322e19d4d1603d7a37d2b93e403"/>
+		<Metadata name="CommonModule.b24_Интеграция" id="96d0606c-e44f-41e0-9986-a231db52684d" configVersion="d9519f44d564699538df0b8aba0ef86361a484fc"/>
+		<Metadata name="CommonModule.b24_Интеграция.Module" id="96d0606c-e44f-41e0-9986-a231db52684d.0" configVersion="4f2967a3ca161790453283e13b32714f00f4c9ee"/>
+		<Metadata name="CommonModule.b24_КоннекторHTTP" id="1f987ff7-47b0-4c34-ab7e-9c5cba2f101e" configVersion="d5541a55e6978d8b222fae6f1e2840fe76eff4ed"/>
+		<Metadata name="CommonModule.b24_КоннекторHTTP.Module" id="1f987ff7-47b0-4c34-ab7e-9c5cba2f101e.0" configVersion="0d19012e6189106c85de0435b5fd43038c538653"/>
+		<Metadata name="CommonModule.b24_ОбщегоНазначения" id="ee73af6d-b05f-4f3d-9e15-8cf1955af8bc" configVersion="9d14260cfc670ee4dd6e81e0cb7edd1328fb6eed"/>
+		<Metadata name="CommonModule.b24_ОбщегоНазначения.Module" id="ee73af6d-b05f-4f3d-9e15-8cf1955af8bc.0" configVersion="22f01f239ce1b3e83dc9783021da7cc42e44fa30"/>
+		<Metadata name="CommonModule.b24_ОбщегоНазначенияПовтИсп" id="b96a0f94-9437-4100-b949-65d01e56f22b" configVersion="994daeec13f7dd42cb5a0eca5a9f62d41caeeedc"/>
+		<Metadata name="CommonModule.b24_ОбщегоНазначенияПовтИсп.Module" id="b96a0f94-9437-4100-b949-65d01e56f22b.0" configVersion="4a5d7e6534f635c9a214df4a0388d8f32d5b1479"/>
+		<Metadata name="CommonModule.b24_РегламентныеЗадания" id="dd0b87cb-6efa-4f39-9437-2a651f2ff08d" configVersion="08f292a846720fa22773ba7899ff53cf2394943d"/>
+		<Metadata name="CommonModule.b24_РегламентныеЗадания.Module" id="dd0b87cb-6efa-4f39-9437-2a651f2ff08d.0" configVersion="73da99cc9253c97c0a837145dcc5be3fc7a74bdc"/>
+		<Metadata name="CommonModule.узОбщийМодульСервер" id="9b902346-7de2-4a11-92d5-d37dc0bc71fd" configVersion="12b94570802bb881e029db98e4cda1ac5c0a9af0"/>
+		<Metadata name="CommonModule.узОбщийМодульСервер.Module" id="9b902346-7de2-4a11-92d5-d37dc0bc71fd.0" configVersion="90c3b5b1c600739e5b1c56fe4069740d70e1bd85"/>
+		<Metadata name="CommonPicture.b24_Logo24" id="7d54133c-18b9-4ca0-b12c-fe8eb2fa480e" configVersion="fd9c798e03dbe472f5933874ae1f97100bbfad40"/>
+		<Metadata name="CommonPicture.b24_Logo24.Picture" id="7d54133c-18b9-4ca0-b12c-fe8eb2fa480e.0" configVersion="db369ca5a8f4b70c42cc09e32234556e84d1cb36"/>
+		<Metadata name="CommonPicture.b24_Logo32" id="afbc277f-fd76-4d59-8636-325049722f17" configVersion="d96438ec2049f95b39d0188a870950c34104bbec"/>
+		<Metadata name="CommonPicture.b24_Logo32.Picture" id="afbc277f-fd76-4d59-8636-325049722f17.0" configVersion="a66ca4b3fcb8865d2b05a8cf9c0447f91507b502"/>
+		<Metadata name="CommonPicture.b24_Logo64" id="7c18f887-9e74-4c83-ad7c-367863a37091" configVersion="6d09e5ddfbeca1e34194c57bfc4ca52ee980e57d"/>
+		<Metadata name="CommonPicture.b24_Logo64.Picture" id="7c18f887-9e74-4c83-ad7c-367863a37091.0" configVersion="3d80af4195f914dfb5dab01de95a6634a05f9b5a"/>
+		<Metadata name="CommonPicture.b24_Обмен" id="4174d8d0-35e9-4d2e-89b2-8f40e5844b80" configVersion="43b9a36c7f95339c3e43b6e44864383f969d0261"/>
+		<Metadata name="CommonPicture.b24_Обмен.Picture" id="4174d8d0-35e9-4d2e-89b2-8f40e5844b80.0" configVersion="73b602554f51ef5febea5cd97c2436fa2f700528"/>
+		<Metadata name="CommonPicture.b24_ПередачаЗадачи" id="2a40e58f-bddf-4877-a16c-b6bab67a6fe3" configVersion="1058a589f0a069f2d14c0b76c4c9d3f7e21c7cb4"/>
+		<Metadata name="CommonPicture.b24_ПередачаЗадачи.Picture" id="2a40e58f-bddf-4877-a16c-b6bab67a6fe3.0" configVersion="3e1a65ba02ccca33ae5d2b99b69d1318b9730025"/>
+		<Metadata name="Configuration.ИнтеграцияБитрикс24" id="50bcd857-db0a-47aa-9cbe-4ad33fb03ddc" configVersion="2c3f097d5baa3bc91d3ea90fc5697c376206fe14"/>
+		<Metadata name="DataProcessor.b24_Администрирование" id="63acec89-b6a8-4316-9d8d-a1e0cf331afd" configVersion="72adbefe0a016f45acb1e4ecb73721da2df84290"/>
+		<Metadata name="DataProcessor.b24_Администрирование.Form.Форма" id="30aa50a8-ba6e-49d5-9c24-48d25582a882" configVersion="f6ca7d6df7f0e7d5e5e9b8f9f642dcc82127d58b"/>
+		<Metadata name="DataProcessor.b24_Администрирование.Form.Форма.Form" id="30aa50a8-ba6e-49d5-9c24-48d25582a882.0" configVersion="bd295949cba7c66423f4bb1226a4f45b3985b04c"/>
+		<Metadata name="DataProcessor.b24_ПрееобразованиеBBКодов" id="e1d064f1-a737-4653-9b22-95a0cb64f714" configVersion="1b6a83cac79fd50b8ab723d858975e72c6007f6a">
+			<Metadata name="DataProcessor.b24_ПрееобразованиеBBКодов.Attribute.Задача" id="4b070751-b06b-4b73-96e8-836c8c401609"/>
+		</Metadata>
+		<Metadata name="DataProcessor.b24_ПрееобразованиеBBКодов.Form.Форма" id="5dd25ec7-c9ea-4776-a87d-b769154ecc0e" configVersion="1dcad15db3cba0d162db20468b21f5b9cec6edb4"/>
+		<Metadata name="DataProcessor.b24_ПрееобразованиеBBКодов.Form.Форма.Form" id="5dd25ec7-c9ea-4776-a87d-b769154ecc0e.0" configVersion="b19901e6e13d21a24d6f9097eac9cd3836b4a7c5"/>
+		<Metadata name="DataProcessor.b24_ПрееобразованиеBBКодов.ManagerModule" id="e1d064f1-a737-4653-9b22-95a0cb64f714.2" configVersion="d9d26d7c5f3fef171d3c2cdea63d38ad170dcd69"/>
+		<Metadata name="DataProcessor.b24_ПрееобразованиеBBКодов.ObjectModule" id="e1d064f1-a737-4653-9b22-95a0cb64f714.0" configVersion="7f9e01ae634bf5cc0db951d62612f83c566c0607"/>
+		<Metadata name="DataProcessor.b24_ПрееобразованиеBBКодов.Template.ПростыеТеги" id="68ceebcb-0b13-4a42-a8fa-f5e8ef9680cc" configVersion="13527b704ba960bb93276c03111d6a1aa55c4803"/>
+		<Metadata name="DataProcessor.b24_ПрееобразованиеBBКодов.Template.ПростыеТеги.Template" id="68ceebcb-0b13-4a42-a8fa-f5e8ef9680cc.0" configVersion="50ab8dccc9d7064f49beb1a2bdbd7952b750b53f"/>
+		<Metadata name="DataProcessor.b24_ПрееобразованиеBBКодов.Template.СложныеТеги" id="a22eff6a-8178-4724-bc58-e13990a32618" configVersion="7b356ca9ae9d239a9ca89188c4eb0685f83478f6"/>
+		<Metadata name="DataProcessor.b24_ПрееобразованиеBBКодов.Template.СложныеТеги.Template" id="a22eff6a-8178-4724-bc58-e13990a32618.0" configVersion="d6dd8d21521eb0b5e9a5c8fa7cc01e4209782181"/>
+		<Metadata name="DataProcessor.b24_ПрееобразованиеBBКодов.Template.УдаляемыеТеги" id="81f461e2-db6e-49ea-bccd-dcf269fd25b7" configVersion="fcfb2fc81a8da8dd34c1251e09c1b3c9ca7b658b"/>
+		<Metadata name="DataProcessor.b24_ПрееобразованиеBBКодов.Template.УдаляемыеТеги.Template" id="81f461e2-db6e-49ea-bccd-dcf269fd25b7.0" configVersion="1f38b7c91f1488f8f2f635bd5b39e08c6d44e59e"/>
+		<Metadata name="DataProcessor.b24_ПросмотрДанныхСайта" id="60970fa2-c154-4c0e-8e4e-45c1e94a2638" configVersion="661b086b1943c794e0ccbd87fb35f2e87fd92133">
+			<Metadata name="DataProcessor.b24_ПросмотрДанныхСайта.Attribute.Сайт" id="f174c8f8-8b71-463c-9db1-6da003d36fa8"/>
+		</Metadata>
+		<Metadata name="DataProcessor.b24_ПросмотрДанныхСайта.Form.Форма" id="16ee1ae7-f869-4890-a72f-c2e04b4a61af" configVersion="bf3bf4a9ebea0addd8a83bce7b0e9771fd71df48"/>
+		<Metadata name="DataProcessor.b24_ПросмотрДанныхСайта.Form.Форма.Form" id="16ee1ae7-f869-4890-a72f-c2e04b4a61af.0" configVersion="b1b0ff748f3f873f16a8ca75acaea8e033f98fb7"/>
+		<Metadata name="DataProcessor.ЖурналРегистрации" id="63232ee0-b82a-4eb2-9fc7-05c7aa07663b" configVersion="e977fabc5de5a6ed27799e46a2f4adf3af1cbbd6">
+			<Metadata name="DataProcessor.ЖурналРегистрации.Command.ЖурналРегистрации" id="08dea1cc-5100-4c23-be0c-8983bbb15827"/>
+		</Metadata>
+		<Metadata name="DataProcessor.РегламентныеИФоновыеЗадания" id="736b3e02-a79e-4ebb-bc86-03d6dc79a7dd" configVersion="eae01601291f7d27823bccfed095248b9fdf400c">
+			<Metadata name="DataProcessor.РегламентныеИФоновыеЗадания.Command.РегламентныеИФоновыеЗадания" id="8f1c37b0-c05f-4f0b-b982-2f48b8a16857"/>
+		</Metadata>
+		<Metadata name="Enum.b24_ВидПользователя" id="f94253ee-ec01-461e-a427-f25429eb4889" configVersion="4bc1045d3ee3b0ab925c0fe516dc4088002ef88a">
+			<Metadata name="Enum.b24_ВидПользователя.EnumValue.Постановщик" id="235a3588-770d-43d6-bf6a-67f2986802e1"/>
+			<Metadata name="Enum.b24_ВидПользователя.EnumValue.Наблюдатель" id="5782ca26-4c45-4e48-8e35-23180ceb71a0"/>
+			<Metadata name="Enum.b24_ВидПользователя.EnumValue.Соисполнитель" id="69e869ab-b516-49c2-8368-87ed630ada44"/>
+			<Metadata name="Enum.b24_ВидПользователя.EnumValue.Отвественный" id="aac240c3-3d4d-458a-8f86-30d50a542ae3"/>
+		</Metadata>
+		<Metadata name="Enum.b24_ВидСравнения" id="602cc65a-0b03-4d60-82a6-b539647159b0" configVersion="5a1276084d9255d1446c70f770569a0f7f565d91">
+			<Metadata name="Enum.b24_ВидСравнения.EnumValue.МеньшеЛибоРавно" id="0d6efae5-cd0b-42ef-a956-c616ab29f75f"/>
+			<Metadata name="Enum.b24_ВидСравнения.EnumValue.Равно" id="7116626f-742e-438a-84f1-0c59cca40e91"/>
+			<Metadata name="Enum.b24_ВидСравнения.EnumValue.Больше" id="93f13d3a-6863-49ef-92ea-df730efe053f"/>
+			<Metadata name="Enum.b24_ВидСравнения.EnumValue.НеРавно" id="bb79688f-5540-42a8-9b38-2c25b09cd206"/>
+			<Metadata name="Enum.b24_ВидСравнения.EnumValue.Меньше" id="cd6c613f-0516-4ed4-947c-6ef0f3f5986c"/>
+			<Metadata name="Enum.b24_ВидСравнения.EnumValue.БольшеЛибоРавно" id="fad0f3bb-f168-4412-9417-3ff65292e3ee"/>
+		</Metadata>
+		<Metadata name="Enum.b24_СобытияОбмена" id="e5f54588-f63b-487d-8b03-ff06fdad2ad0" configVersion="01ef380bb3dfdf11b6f0ef075702f2a6b1d6ae57">
+			<Metadata name="Enum.b24_СобытияОбмена.EnumValue.ОбъектЗаблокированДляЗагрузкиВУправлениеЗадачами" id="0fe6d9d5-14cd-4b9e-8af5-fdb2a9ab4ebf"/>
+			<Metadata name="Enum.b24_СобытияОбмена.EnumValue.ПередачаЗадачиВДругоеПодразделение" id="27dc2ec8-4047-4ef3-871d-5dcaa7340522"/>
+			<Metadata name="Enum.b24_СобытияОбмена.EnumValue.ОшибкаЗагрузкиВУправлениеЗадачами" id="4403e3b6-c80b-4994-bf57-a5ae07586fd9"/>
+			<Metadata name="Enum.b24_СобытияОбмена.EnumValue.ОшибкаЗагрузкиВБитрикс24" id="5f297cad-a2d0-4615-a998-681f9c16b7c9"/>
+			<Metadata name="Enum.b24_СобытияОбмена.EnumValue.ЗагруженВУправлениеЗадачами" id="8971b482-67d3-4d7b-a4b0-237d50d316d3"/>
+			<Metadata name="Enum.b24_СобытияОбмена.EnumValue.ЗагруженБитрикс24" id="8d405845-d4e5-4131-8d98-2b0e1c357f2f"/>
+			<Metadata name="Enum.b24_СобытияОбмена.EnumValue.ДобавленВОчередьОбмена" id="e0a42180-1bb1-4777-8ff8-fee4f1171c09"/>
+		</Metadata>
+		<Metadata name="Enum.узОформлениеТекста" id="78fe1450-ca6a-4fd0-af90-1401a4dac792" configVersion="584e6e1426295f03e6f978ade5c2c3b4d20f9b87">
+			<Metadata name="Enum.узОформлениеТекста.EnumValue.Markdown" id="74bc964a-ac52-4f87-940a-7cd298ee0da8"/>
+			<Metadata name="Enum.узОформлениеТекста.EnumValue.Текст" id="adebda02-370a-4f88-8a80-886376f65885"/>
+			<Metadata name="Enum.узОформлениеТекста.EnumValue.ФорматированныйТекст" id="e4b237ec-6fe5-4962-9b61-16bb2844e762"/>
+		</Metadata>
+		<Metadata name="InformationRegister.b24_ВыгружаемыеОбъекты" id="7ee59291-18aa-451d-aa87-3f63e26fd3c0" configVersion="a99f708402262f850015f43fdacdcdce9f4316d9">
+			<Metadata name="InformationRegister.b24_ВыгружаемыеОбъекты.Dimension.Ссылка" id="4d3ed002-3808-42b3-9362-64ec101a1e29"/>
+			<Metadata name="InformationRegister.b24_ВыгружаемыеОбъекты.Dimension.Сайт" id="74a9d30f-6531-4375-9670-fee826997730"/>
+		</Metadata>
+		<Metadata name="InformationRegister.b24_ВыгружаемыеОбъекты.ManagerModule" id="7ee59291-18aa-451d-aa87-3f63e26fd3c0.2" configVersion="65cc010c3e47c4ffa4b65caf77aecf3c2d203156"/>
+		<Metadata name="InformationRegister.b24_ЗаблокированныеОбъектыДляЗагрузки" id="9c689356-a843-4e86-8f5e-507f687aa580" configVersion="f31d2123d87f2d9222db94a423bde2397fdec43f">
+			<Metadata name="InformationRegister.b24_ЗаблокированныеОбъектыДляЗагрузки.Dimension.Объект" id="5c43349b-bbbd-4653-bda0-d59b7699e329"/>
+			<Metadata name="InformationRegister.b24_ЗаблокированныеОбъектыДляЗагрузки.Dimension.Сайт" id="6f31d41f-2aff-44de-8b5d-1f2cebff017f"/>
+		</Metadata>
+		<Metadata name="InformationRegister.b24_ЗаблокированныеОбъектыДляЗагрузки.ManagerModule" id="9c689356-a843-4e86-8f5e-507f687aa580.2" configVersion="92c1b8b326c19651fd2e17ae6e51ce688b48bada"/>
+		<Metadata name="InformationRegister.b24_ИдентификаторыОбъектов" id="3e0524e2-5bc9-4f90-973a-ad5e30116247" configVersion="ee0555a2b65d77fdc119299375ef2abe9bb5b7dc">
+			<Metadata name="InformationRegister.b24_ИдентификаторыОбъектов.Dimension.Сайт" id="1f8cc04d-cf05-4aa7-b603-2ba08716185a"/>
+			<Metadata name="InformationRegister.b24_ИдентификаторыОбъектов.Resource.ID" id="69d45ed7-3960-40b8-ba35-00af0788db5b"/>
+			<Metadata name="InformationRegister.b24_ИдентификаторыОбъектов.Dimension.Ссылка" id="a5414365-0764-4c07-960e-80ca910a9744"/>
+			<Metadata name="InformationRegister.b24_ИдентификаторыОбъектов.Command.Контрагенты" id="e5924660-cc07-45a7-ae79-372563feeb77"/>
+		</Metadata>
+		<Metadata name="InformationRegister.b24_ИдентификаторыОбъектов.Command.Контрагенты.CommandModule" id="e5924660-cc07-45a7-ae79-372563feeb77.2" configVersion="1d4dd0c3289f72c94cdd87fece9cd8db820e0cb1"/>
+		<Metadata name="InformationRegister.b24_ИдентификаторыОбъектов.Form.ФормаКонтрагентов" id="ade1ec8c-be4f-4832-8d33-d632c1640742" configVersion="ccc8bb088730f50e494b3899cc158f1df578ca4d"/>
+		<Metadata name="InformationRegister.b24_ИдентификаторыОбъектов.Form.ФормаКонтрагентов.Form" id="ade1ec8c-be4f-4832-8d33-d632c1640742.0" configVersion="3cb2722b0b3bbda0ce88bcafc62e71fe005df5a8"/>
+		<Metadata name="InformationRegister.b24_ИдентификаторыОбъектов.ManagerModule" id="3e0524e2-5bc9-4f90-973a-ad5e30116247.2" configVersion="b5b989fc3fef8412e991cbd53b6653b4fe730188"/>
+		<Metadata name="InformationRegister.b24_ИсторияОбменаОбъектов" id="0214a72f-0c08-4074-8d4d-a25f98e8c30e" configVersion="686ce0ba23a9db08b3792b26e9d00adb2ebcfdc0">
+			<Metadata name="InformationRegister.b24_ИсторияОбменаОбъектов.Resource.Событие" id="10774b77-6d12-4078-b336-94c96abb71df"/>
+			<Metadata name="InformationRegister.b24_ИсторияОбменаОбъектов.Dimension.Объект" id="1703c358-cc00-4255-9827-3c686a01d680"/>
+			<Metadata name="InformationRegister.b24_ИсторияОбменаОбъектов.Dimension.Сайт" id="7dc70c92-9d1f-4703-8a84-60d8a8baf35a"/>
+		</Metadata>
+		<Metadata name="InformationRegister.b24_ИсторияОбменаОбъектов.ManagerModule" id="0214a72f-0c08-4074-8d4d-a25f98e8c30e.2" configVersion="a32d9c6b09fdd81797b5524838e835fabf56349c"/>
+		<Metadata name="InformationRegister.b24_НастройкиИнтеграций" id="022f9f8e-caed-4752-a954-7778fe312749" configVersion="b258231f2ea6b55059d3269e9e37b08266e74e19">
+			<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Dimension.Сайт" id="03278738-c91b-411f-adcf-c22ad3ac5e71"/>
+			<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Resource.Выполняется" id="0ed9a0a8-66d3-411e-bc00-917164a82e82"/>
+			<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Resource.ДатаПоследнегоУспешногоОбмена" id="16ee9926-5c4f-4d19-900e-688cfcd2c8bb"/>
+			<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Resource.ПользовательОбмена" id="297a9d8e-bfb3-49f6-9a63-99470f45beed"/>
+			<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Resource.СтатусПовторногоВозобновленияЗадачи" id="2a51bb0d-023d-4f0e-a245-f6bdbd470988"/>
+			<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Resource.ВидЗаказчика" id="7cb4afa8-1023-4407-a228-75fcc7a98890"/>
+			<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Resource.КоличествоВыполненныхЗапросов" id="baea2bdb-ce69-4d0f-b449-c8517d9c78f6"/>
+			<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Resource.Задержка" id="c2492d72-2b58-48c6-b1d1-979d7c88d29e"/>
+			<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Resource.Подразделение" id="c840571f-d263-42a0-83f1-ad625f2ec3fc"/>
+			<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Resource.ДатаНачалаОбмена" id="cde234a0-a1e7-4df5-a2e1-6e49b81d5106"/>
+			<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Resource.МаксимальноеКоличествоЗапросовПередЗадержкой" id="cf97a8fe-6454-4b7f-9e1a-dee75c5494cc"/>
+			<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Resource.СтатусПоУмолчанию" id="e19642c2-1206-44b4-9fe1-287853beadd3"/>
+			<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Resource.РодительскийКаталог" id="f49b5619-8cb3-49e7-9424-43605fbb63b3"/>
+		</Metadata>
+		<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Form.ФормаЗаписи" id="a3e50fde-0803-4be9-a33c-0f84fcb2f8f9" configVersion="bb265ab85bea98038a90f897aa93e794f76a6d71"/>
+		<Metadata name="InformationRegister.b24_НастройкиИнтеграций.Form.ФормаЗаписи.Form" id="a3e50fde-0803-4be9-a33c-0f84fcb2f8f9.0" configVersion="5679adab8341ddb0a42327ec4c4859e32d9288ee"/>
+		<Metadata name="InformationRegister.b24_НастройкиИнтеграций.ManagerModule" id="022f9f8e-caed-4752-a954-7778fe312749.2" configVersion="edffc8b844c0459b82fc1959ac5baac2e51b0d97"/>
+		<Metadata name="InformationRegister.b24_НастройкиИнтеграций.RecordSetModule" id="022f9f8e-caed-4752-a954-7778fe312749.1" configVersion="2c2ec993066df701ae9a6bce1a6ef4a5ed8b1931"/>
+		<Metadata name="InformationRegister.b24_ПредопределенныеЭлементы" id="6aa14a6e-0ab5-48f9-898f-6b1be03ac7a0" configVersion="51ff66545c9178cd555e1011dfb310bcef5a6121">
+			<Metadata name="InformationRegister.b24_ПредопределенныеЭлементы.Dimension.Значение" id="5ec6ca7c-1633-4628-b5fc-80719313370f"/>
+			<Metadata name="InformationRegister.b24_ПредопределенныеЭлементы.Dimension.Имя" id="b13468fd-8356-49aa-a545-70ec8653e1c5"/>
+		</Metadata>
+		<Metadata name="InformationRegister.b24_ПредопределенныеЭлементы.ManagerModule" id="6aa14a6e-0ab5-48f9-898f-6b1be03ac7a0.2" configVersion="7c069e00375b1c4cb82fad438875b58f41df900f"/>
+		<Metadata name="InformationRegister.b24_СостоянияОбменаЗадач" id="e2935f27-0873-4b44-93f0-ab5ca5279460" configVersion="128abcfe0fb0261e6b90e985d6552b94ab0fe1b8">
+			<Metadata name="InformationRegister.b24_СостоянияОбменаЗадач.Dimension.Сайт" id="20257f08-c66e-474f-9938-90ec0071b771"/>
+			<Metadata name="InformationRegister.b24_СостоянияОбменаЗадач.Dimension.Задача" id="bc7ad0e8-93e4-4ea3-9fec-19b294129fdc"/>
+			<Metadata name="InformationRegister.b24_СостоянияОбменаЗадач.Command.ОчиститьСостояниеОбменаСайта" id="d9cea130-e4cb-4b26-9bc7-2c72a3ea7df1"/>
+			<Metadata name="InformationRegister.b24_СостоянияОбменаЗадач.Resource.ДатаПоследнегоУспешногоОбмена" id="ea8479eb-15d7-4823-a1ca-76eb3a389e63"/>
+		</Metadata>
+		<Metadata name="InformationRegister.b24_СостоянияОбменаЗадач.Command.ОчиститьСостояниеОбменаСайта.CommandModule" id="d9cea130-e4cb-4b26-9bc7-2c72a3ea7df1.2" configVersion="c713b87858d91d344a3fb003401325d04a426978"/>
+		<Metadata name="InformationRegister.b24_СостоянияОбменаЗадач.ManagerModule" id="e2935f27-0873-4b44-93f0-ab5ca5279460.2" configVersion="5561f55ad9a0f6e7cf786185465ebf49f4b384a3"/>
+		<Metadata name="InformationRegister.b24_СостоянияОбменаЗадач.RecordSetModule" id="e2935f27-0873-4b44-93f0-ab5ca5279460.1" configVersion="7705fac57ad905a0198da0eee9c8bc7c56f732c3"/>
+		<Metadata name="InformationRegister.b24_СтатистикаВыполненияЗапросов" id="c21bb605-b53f-47f1-bc63-8b51643f8934" configVersion="1bc7a87689ec050bb68b9452d2b94a3505af97f5">
+			<Metadata name="InformationRegister.b24_СтатистикаВыполненияЗапросов.Dimension.Метод" id="0d43c038-303e-4c3f-abb9-58cfdfc578d5"/>
+			<Metadata name="InformationRegister.b24_СтатистикаВыполненияЗапросов.Dimension.Дата" id="9893f838-f0f2-4230-a825-d4998119472f"/>
+			<Metadata name="InformationRegister.b24_СтатистикаВыполненияЗапросов.Resource.Количество" id="b2c0a9e0-5c10-4fb2-a2b9-223882adfcfe"/>
+			<Metadata name="InformationRegister.b24_СтатистикаВыполненияЗапросов.Dimension.Сайт" id="f021dfb2-9f89-4ecd-b683-d8c7abeaee01"/>
+		</Metadata>
+		<Metadata name="InformationRegister.b24_СтатистикаВыполненияЗапросов.ManagerModule" id="c21bb605-b53f-47f1-bc63-8b51643f8934.2" configVersion="e9567a4f9bf3edb647c8a5c7cd2374d6ad59f2e2"/>
+		<Metadata name="Language.Русский" id="50b600a6-aa3b-436f-b0cb-9310d754ad8c" configVersion="7663468b7e76fd649bac83efd3855c709d78a385"/>
+		<Metadata name="Role.b24_ПолныеПрава" id="194591a0-5104-4f54-9959-7416aa49b820" configVersion="51289038cf87d864af2f65f2dbff34eec26f356c"/>
+		<Metadata name="Role.b24_ПолныеПрава.Rights" id="194591a0-5104-4f54-9959-7416aa49b820.0" configVersion="80213c1282be09d63228f2031350f2c3f0bf5222"/>
+		<Metadata name="Subsystem.b24_Битрикс24" id="77187c72-b292-4701-a5ca-202a93e1bd49" configVersion="438e6a8869a7ba1844a684eb5e99edf66872aa95"/>
+		<Metadata name="Subsystem.b24_Битрикс24.Subsystem.Администрирование" id="46318b69-d7ed-4c16-8165-d408e88831f8" configVersion="e5dcf3dff77795852a8a3bfc0b867ef12d6f0b80"/>
+		<Metadata name="Subsystem.b24_Битрикс24.Subsystem.Задачи" id="70d8c026-61b5-4089-84ec-3cebecdaebed" configVersion="873e4f7dabb2a520e476782e583bea0a184c0766"/>
+		<Metadata name="Subsystem.b24_Битрикс24.Subsystem.НСИ" id="49314130-b725-4eb9-b278-138aecf7fbe4" configVersion="637781c38af7504df1b3abad957fe4130c5df484"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

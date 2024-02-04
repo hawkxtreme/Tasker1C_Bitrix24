@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="78fe1450-ca6a-4fd0-af90-1401a4dac792">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.узОформлениеТекста" category="Ref">
+				<xr:TypeId>6e56d6d8-2f08-41f9-a011-f4fa987992a5</xr:TypeId>
+				<xr:ValueId>c066e69d-7a17-45a3-b7ee-3074eed4168e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.узОформлениеТекста" category="Manager">
+				<xr:TypeId>d6229f3f-9a43-45a0-919c-1b72501d1bed</xr:TypeId>
+				<xr:ValueId>586456a8-59dd-425a-908a-36f86cbaadd4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.узОформлениеТекста" category="List">
+				<xr:TypeId>8018d615-3d69-41c2-9686-9313f179baee</xr:TypeId>
+				<xr:ValueId>1bd66dac-3b79-4656-8a8d-66e683346283</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>узОформлениеТекста</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5b6ff570-62c2-42f4-b206-490e1bcf32b1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="adebda02-370a-4f88-8a80-886376f65885">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Текст</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5168d756-f8ea-443f-8c5f-872e36c99078</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e4b237ec-6fe5-4962-9b61-16bb2844e762">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФорматированныйТекст</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a461176e-9a50-4392-9bcd-7d6235770fe6</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="74bc964a-ac52-4f87-940a-7cd298ee0da8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Markdown</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c2259309-194f-42bf-a86b-b93f5c5a2b50</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

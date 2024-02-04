@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Subsystem uuid="77187c72-b292-4701-a5ca-202a93e1bd49">
+		<Properties>
+			<Name>b24_Битрикс24</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Битрикс24</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>CommonPicture.b24_Logo32</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.b24_Logo64</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.b24_ПолныеПрава</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.b24_КоннекторHTTP</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.b24_API</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.b24_Интеграция</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.b24_РегламентныеЗадания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.b24_ОбщегоНазначения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.b24_Logo24</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.b24_Обмен</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.b24_Битрикс24</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.b24_Logo32</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.b24_ОбщегоНазначенияПовтИсп</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>Администрирование</Subsystem>
+			<Subsystem>Задачи</Subsystem>
+			<Subsystem>НСИ</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>

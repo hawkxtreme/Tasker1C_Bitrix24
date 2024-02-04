@@ -1,0 +1,1232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОбработкаРегламентныеИФоновыеЗаданияРегламентныеИФоновыеЗадания" id="81">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>DataProcessor.РегламентныеИФоновыеЗадания.Command.РегламентныеИФоновыеЗадания</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.ScheduledJob</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Фоновые задания</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаОбработкаРегламентныеИФоновыеЗаданияРегламентныеИФоновыеЗаданияРасширеннаяПодсказка" id="82"/>
+			</Button>
+			<Button name="ФормаОбработкаЖурналРегистрацииЖурналРегистрации" id="156">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>DataProcessor.ЖурналРегистрации.Command.ЖурналРегистрации</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.EventLog</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Журнал регистрации</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаОбработкаЖурналРегистрацииЖурналРегистрацииРасширеннаяПодсказка" id="157"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<Pages name="Страницы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="СтраницаСайты" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сайты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница сайты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаСайтыРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<Table name="Сайты" id="5">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>Сайты</DataPath>
+							<RowPictureDataPath>Сайты.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СайтыКонтекстноеМеню" id="6"/>
+							<AutoCommandBar name="СайтыКоманднаяПанель" id="7">
+								<ChildItems>
+									<Popup name="СайтыГруппа1" id="128">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>...</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="СайтыГруппа1РасширеннаяПодсказка" id="129"/>
+										<ChildItems>
+											<Button name="СайтыСправочникb24_СайтИнтеграцииВыполнитьОбмен" id="83">
+												<Type>CommandBarButton</Type>
+												<CommandName>Catalog.b24_СайтИнтеграции.Command.ВыполнитьОбмен</CommandName>
+												<DataPath>Items.Сайты.CurrentData.Ref</DataPath>
+												<ExtendedTooltip name="СайтыСправочникb24_СайтИнтеграцииВыполнитьОбменРасширеннаяПодсказка" id="84"/>
+											</Button>
+											<Button name="СайтыРегистрСведенийb24_СостоянияОбменаЗадачОчиститьСостояниеОбменаСайта" id="91">
+												<Type>CommandBarButton</Type>
+												<CommandName>InformationRegister.b24_СостоянияОбменаЗадач.Command.ОчиститьСостояниеОбменаСайта</CommandName>
+												<DataPath>Items.Сайты.CurrentData.Ref</DataPath>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Очистить состояние</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="СайтыРегистрСведенийb24_СостоянияОбменаЗадачОчиститьСостояниеОбменаСайтаРасширеннаяПодсказка" id="92"/>
+											</Button>
+											<Button name="СайтыСправочникb24_СтатусыЗадачСайтаb24_ИнициализироватьСтатусыЗадачСайта" id="126">
+												<Type>CommandBarButton</Type>
+												<CommandName>Catalog.b24_СтатусыЗадачСайта.Command.b24_ИнициализироватьСтатусыЗадачСайта</CommandName>
+												<DataPath>Items.Сайты.CurrentData.Ref</DataPath>
+												<ExtendedTooltip name="СайтыСправочникb24_СтатусыЗадачСайтаb24_ИнициализироватьСтатусыЗадачСайтаРасширеннаяПодсказка" id="127"/>
+											</Button>
+										</ChildItems>
+									</Popup>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СайтыРасширеннаяПодсказка" id="8"/>
+							<SearchStringAddition name="СайтыСтрокаПоиска" id="9">
+								<AdditionSource>
+									<Item>Сайты</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СайтыСтрокаПоискаКонтекстноеМеню" id="10"/>
+								<ExtendedTooltip name="СайтыСтрокаПоискаРасширеннаяПодсказка" id="11"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СайтыСостояниеПросмотра" id="12">
+								<AdditionSource>
+									<Item>Сайты</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СайтыСостояниеПросмотраКонтекстноеМеню" id="13"/>
+								<ExtendedTooltip name="СайтыСостояниеПросмотраРасширеннаяПодсказка" id="14"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СайтыУправлениеПоиском" id="15">
+								<AdditionSource>
+									<Item>Сайты</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СайтыУправлениеПоискомКонтекстноеМеню" id="16"/>
+								<ExtendedTooltip name="СайтыУправлениеПоискомРасширеннаяПодсказка" id="17"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СайтыНаименование" id="18">
+									<DataPath>Сайты.Description</DataPath>
+									<ContextMenu name="СайтыНаименованиеКонтекстноеМеню" id="19"/>
+									<ExtendedTooltip name="СайтыНаименованиеРасширеннаяПодсказка" id="20"/>
+								</LabelField>
+								<LabelField name="СайтыКод" id="21">
+									<DataPath>Сайты.Code</DataPath>
+									<ContextMenu name="СайтыКодКонтекстноеМеню" id="22"/>
+									<ExtendedTooltip name="СайтыКодРасширеннаяПодсказка" id="23"/>
+								</LabelField>
+								<LabelField name="СайтыURL" id="24">
+									<DataPath>Сайты.URL</DataPath>
+									<ContextMenu name="СайтыURLКонтекстноеМеню" id="25"/>
+									<ExtendedTooltip name="СайтыURLРасширеннаяПодсказка" id="26"/>
+								</LabelField>
+								<LabelField name="СайтыИдентификаторПользователя" id="27">
+									<DataPath>Сайты.ИдентификаторПользователя</DataPath>
+									<ContextMenu name="СайтыИдентификаторПользователяКонтекстноеМеню" id="28"/>
+									<ExtendedTooltip name="СайтыИдентификаторПользователяРасширеннаяПодсказка" id="29"/>
+								</LabelField>
+								<CheckBoxField name="СайтыАктивно" id="30">
+									<DataPath>Сайты.Активно</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СайтыАктивноКонтекстноеМеню" id="31"/>
+									<ExtendedTooltip name="СайтыАктивноРасширеннаяПодсказка" id="32"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаНастройкиИнтеграций" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки интеграций</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница настройки интеграций</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаНастройкиИнтеграцийРасширеннаяПодсказка" id="34"/>
+					<ChildItems>
+						<Table name="НастройкиИнтеграций" id="35">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>НастройкиИнтеграций</DataPath>
+							<RowPictureDataPath>НастройкиИнтеграций.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="НастройкиИнтеграцийКонтекстноеМеню" id="36"/>
+							<AutoCommandBar name="НастройкиИнтеграцийКоманднаяПанель" id="37"/>
+							<ExtendedTooltip name="НастройкиИнтеграцийРасширеннаяПодсказка" id="38"/>
+							<SearchStringAddition name="НастройкиИнтеграцийСтрокаПоиска" id="39">
+								<AdditionSource>
+									<Item>НастройкиИнтеграций</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НастройкиИнтеграцийСтрокаПоискаКонтекстноеМеню" id="40"/>
+								<ExtendedTooltip name="НастройкиИнтеграцийСтрокаПоискаРасширеннаяПодсказка" id="41"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="НастройкиИнтеграцийСостояниеПросмотра" id="42">
+								<AdditionSource>
+									<Item>НастройкиИнтеграций</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НастройкиИнтеграцийСостояниеПросмотраКонтекстноеМеню" id="43"/>
+								<ExtendedTooltip name="НастройкиИнтеграцийСостояниеПросмотраРасширеннаяПодсказка" id="44"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="НастройкиИнтеграцийУправлениеПоиском" id="45">
+								<AdditionSource>
+									<Item>НастройкиИнтеграций</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="НастройкиИнтеграцийУправлениеПоискомКонтекстноеМеню" id="46"/>
+								<ExtendedTooltip name="НастройкиИнтеграцийУправлениеПоискомРасширеннаяПодсказка" id="47"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="НастройкиИнтеграцийСайт" id="48">
+									<DataPath>НастройкиИнтеграций.Сайт</DataPath>
+									<ContextMenu name="НастройкиИнтеграцийСайтКонтекстноеМеню" id="49"/>
+									<ExtendedTooltip name="НастройкиИнтеграцийСайтРасширеннаяПодсказка" id="50"/>
+								</LabelField>
+								<ColumnGroup name="НастройкиИнтеграцийГруппа6" id="204">
+									<ExtendedTooltip name="НастройкиИнтеграцийГруппа6РасширеннаяПодсказка" id="205"/>
+									<ChildItems>
+										<LabelField name="НастройкиИнтеграцийРодительскийКаталог" id="51">
+											<DataPath>НастройкиИнтеграций.РодительскийКаталог</DataPath>
+											<ContextMenu name="НастройкиИнтеграцийРодительскийКаталогКонтекстноеМеню" id="52"/>
+											<ExtendedTooltip name="НастройкиИнтеграцийРодительскийКаталогРасширеннаяПодсказка" id="53"/>
+										</LabelField>
+										<LabelField name="НастройкиИнтеграцийПодразделение" id="201">
+											<DataPath>НастройкиИнтеграций.Подразделение</DataPath>
+											<ContextMenu name="НастройкиИнтеграцийПодразделениеКонтекстноеМеню" id="202"/>
+											<ExtendedTooltip name="НастройкиИнтеграцийПодразделениеРасширеннаяПодсказка" id="203"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="НастройкиИнтеграцийГруппа5" id="175">
+									<ExtendedTooltip name="НастройкиИнтеграцийГруппа5РасширеннаяПодсказка" id="176"/>
+									<ChildItems>
+										<LabelField name="НастройкиИнтеграцийПользовательОбмена" id="88">
+											<DataPath>НастройкиИнтеграций.ПользовательОбмена</DataPath>
+											<ContextMenu name="НастройкиИнтеграцийПользовательОбменаКонтекстноеМеню" id="89"/>
+											<ExtendedTooltip name="НастройкиИнтеграцийПользовательОбменаРасширеннаяПодсказка" id="90"/>
+										</LabelField>
+										<LabelField name="НастройкиИнтеграцийВидЗаказчика" id="153">
+											<DataPath>НастройкиИнтеграций.ВидЗаказчика</DataPath>
+											<ContextMenu name="НастройкиИнтеграцийВидЗаказчикаКонтекстноеМеню" id="154"/>
+											<ExtendedTooltip name="НастройкиИнтеграцийВидЗаказчикаРасширеннаяПодсказка" id="155"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="НастройкиИнтеграцийГруппа1" id="167">
+									<ExtendedTooltip name="НастройкиИнтеграцийГруппа1РасширеннаяПодсказка" id="168"/>
+									<ChildItems>
+										<LabelField name="НастройкиИнтеграцийСтатусПоУмолчанию" id="85">
+											<DataPath>НастройкиИнтеграций.СтатусПоУмолчанию</DataPath>
+											<ContextMenu name="НастройкиИнтеграцийСтатусПоУмолчаниюКонтекстноеМеню" id="86"/>
+											<ExtendedTooltip name="НастройкиИнтеграцийСтатусПоУмолчаниюРасширеннаяПодсказка" id="87"/>
+										</LabelField>
+										<LabelField name="НастройкиИнтеграцийСтатусПовторногоВозобновленияЗадачи" id="150">
+											<DataPath>НастройкиИнтеграций.СтатусПовторногоВозобновленияЗадачи</DataPath>
+											<ContextMenu name="НастройкиИнтеграцийСтатусПовторногоВозобновленияЗадачиКонтекстноеМеню" id="151"/>
+											<ExtendedTooltip name="НастройкиИнтеграцийСтатусПовторногоВозобновленияЗадачиРасширеннаяПодсказка" id="152"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="НастройкиИнтеграцийГруппа2" id="169">
+									<ExtendedTooltip name="НастройкиИнтеграцийГруппа2РасширеннаяПодсказка" id="170"/>
+									<ChildItems>
+										<LabelField name="НастройкиИнтеграцийМаксимальноеКоличествоЗапросовПередЗадержкой" id="158">
+											<DataPath>НастройкиИнтеграций.МаксимальноеКоличествоЗапросовПередЗадержкой</DataPath>
+											<ContextMenu name="НастройкиИнтеграцийМаксимальноеКоличествоЗапросовПередЗадержкойКонтекстноеМеню" id="159"/>
+											<ExtendedTooltip name="НастройкиИнтеграцийМаксимальноеКоличествоЗапросовПередЗадержкойРасширеннаяПодсказка" id="160"/>
+										</LabelField>
+										<LabelField name="НастройкиИнтеграцийЗадержка" id="161">
+											<DataPath>НастройкиИнтеграций.Задержка</DataPath>
+											<ContextMenu name="НастройкиИнтеграцийЗадержкаКонтекстноеМеню" id="162"/>
+											<ExtendedTooltip name="НастройкиИнтеграцийЗадержкаРасширеннаяПодсказка" id="163"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="НастройкиИнтеграцийГруппа3" id="171">
+									<ExtendedTooltip name="НастройкиИнтеграцийГруппа3РасширеннаяПодсказка" id="172"/>
+									<ChildItems>
+										<LabelField name="НастройкиИнтеграцийДатаНачалаОбмена" id="93">
+											<DataPath>НастройкиИнтеграций.ДатаНачалаОбмена</DataPath>
+											<ContextMenu name="НастройкиИнтеграцийДатаНачалаОбменаКонтекстноеМеню" id="94"/>
+											<ExtendedTooltip name="НастройкиИнтеграцийДатаНачалаОбменаРасширеннаяПодсказка" id="95"/>
+										</LabelField>
+										<LabelField name="НастройкиИнтеграцийДатаПоследнегоУспешногоОбмена" id="54">
+											<DataPath>НастройкиИнтеграций.ДатаПоследнегоУспешногоОбмена</DataPath>
+											<ContextMenu name="НастройкиИнтеграцийДатаПоследнегоУспешногоОбменаКонтекстноеМеню" id="55"/>
+											<ExtendedTooltip name="НастройкиИнтеграцийДатаПоследнегоУспешногоОбменаРасширеннаяПодсказка" id="56"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="НастройкиИнтеграцийГруппа4" id="173">
+									<ExtendedTooltip name="НастройкиИнтеграцийГруппа4РасширеннаяПодсказка" id="174"/>
+									<ChildItems>
+										<CheckBoxField name="НастройкиИнтеграцийВыполняется" id="284">
+											<DataPath>НастройкиИнтеграций.Выполняется</DataPath>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="НастройкиИнтеграцийВыполняетсяКонтекстноеМеню" id="285"/>
+											<ExtendedTooltip name="НастройкиИнтеграцийВыполняетсяРасширеннаяПодсказка" id="286"/>
+										</CheckBoxField>
+										<LabelField name="НастройкиИнтеграцийКоличествоВыполненныхЗапросов" id="164">
+											<DataPath>НастройкиИнтеграций.КоличествоВыполненныхЗапросов</DataPath>
+											<ContextMenu name="НастройкиИнтеграцийКоличествоВыполненныхЗапросовКонтекстноеМеню" id="165"/>
+											<ExtendedTooltip name="НастройкиИнтеграцийКоличествоВыполненныхЗапросовРасширеннаяПодсказка" id="166"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаСтатусыЗадачСайтов" id="96">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статусы задач сайтов</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница статусы задач сайтов</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаСтатусыЗадачСайтовРасширеннаяПодсказка" id="97"/>
+					<ChildItems>
+						<Table name="СтатусыЗадачСайта" id="98">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>СтатусыЗадачСайта</DataPath>
+							<RowPictureDataPath>СтатусыЗадачСайта.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СтатусыЗадачСайтаКонтекстноеМеню" id="99"/>
+							<AutoCommandBar name="СтатусыЗадачСайтаКоманднаяПанель" id="100"/>
+							<ExtendedTooltip name="СтатусыЗадачСайтаРасширеннаяПодсказка" id="101"/>
+							<SearchStringAddition name="СтатусыЗадачСайтаСтрокаПоиска" id="102">
+								<AdditionSource>
+									<Item>СтатусыЗадачСайта</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СтатусыЗадачСайтаСтрокаПоискаКонтекстноеМеню" id="103"/>
+								<ExtendedTooltip name="СтатусыЗадачСайтаСтрокаПоискаРасширеннаяПодсказка" id="104"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СтатусыЗадачСайтаСостояниеПросмотра" id="105">
+								<AdditionSource>
+									<Item>СтатусыЗадачСайта</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СтатусыЗадачСайтаСостояниеПросмотраКонтекстноеМеню" id="106"/>
+								<ExtendedTooltip name="СтатусыЗадачСайтаСостояниеПросмотраРасширеннаяПодсказка" id="107"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СтатусыЗадачСайтаУправлениеПоиском" id="108">
+								<AdditionSource>
+									<Item>СтатусыЗадачСайта</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СтатусыЗадачСайтаУправлениеПоискомКонтекстноеМеню" id="109"/>
+								<ExtendedTooltip name="СтатусыЗадачСайтаУправлениеПоискомРасширеннаяПодсказка" id="110"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СтатусыЗадачСайтаНаименование" id="111">
+									<DataPath>СтатусыЗадачСайта.Description</DataPath>
+									<ContextMenu name="СтатусыЗадачСайтаНаименованиеКонтекстноеМеню" id="112"/>
+									<ExtendedTooltip name="СтатусыЗадачСайтаНаименованиеРасширеннаяПодсказка" id="113"/>
+								</LabelField>
+								<LabelField name="СтатусыЗадачСайтаКод" id="114">
+									<DataPath>СтатусыЗадачСайта.Code</DataPath>
+									<ContextMenu name="СтатусыЗадачСайтаКодКонтекстноеМеню" id="115"/>
+									<ExtendedTooltip name="СтатусыЗадачСайтаКодРасширеннаяПодсказка" id="116"/>
+								</LabelField>
+								<LabelField name="СтатусыЗадачСайтаВладелец" id="117">
+									<DataPath>СтатусыЗадачСайта.Owner</DataPath>
+									<ContextMenu name="СтатусыЗадачСайтаВладелецКонтекстноеМеню" id="118"/>
+									<ExtendedTooltip name="СтатусыЗадачСайтаВладелецРасширеннаяПодсказка" id="119"/>
+								</LabelField>
+								<LabelField name="СтатусыЗадачСайтаЧисловоеЗначение" id="120">
+									<DataPath>СтатусыЗадачСайта.ЧисловоеЗначение</DataPath>
+									<ContextMenu name="СтатусыЗадачСайтаЧисловоеЗначениеКонтекстноеМеню" id="121"/>
+									<ExtendedTooltip name="СтатусыЗадачСайтаЧисловоеЗначениеРасширеннаяПодсказка" id="122"/>
+								</LabelField>
+								<LabelField name="СтатусыЗадачСайтаСтатус" id="123">
+									<DataPath>СтатусыЗадачСайта.Статус</DataPath>
+									<ContextMenu name="СтатусыЗадачСайтаСтатусКонтекстноеМеню" id="124"/>
+									<ExtendedTooltip name="СтатусыЗадачСайтаСтатусРасширеннаяПодсказка" id="125"/>
+								</LabelField>
+								<CheckBoxField name="СтатусыЗадачСайтаЗагружатьИзБитрикс24" id="287">
+									<DataPath>СтатусыЗадачСайта.ЗагружатьИзБитрикс24</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СтатусыЗадачСайтаЗагружатьИзБитрикс24КонтекстноеМеню" id="288"/>
+									<ExtendedTooltip name="СтатусыЗадачСайтаЗагружатьИзБитрикс24РасширеннаяПодсказка" id="289"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаИдентификаторыОбъектов" id="177">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификаторы объектов</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификаторы объектов</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаИдентификаторыОбъектовРасширеннаяПодсказка" id="178"/>
+					<ChildItems>
+						<Table name="ИдентификаторыОбъектов" id="179">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ИдентификаторыОбъектов</DataPath>
+							<RowPictureDataPath>ИдентификаторыОбъектов.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ИдентификаторыОбъектовКонтекстноеМеню" id="180"/>
+							<AutoCommandBar name="ИдентификаторыОбъектовКоманднаяПанель" id="181"/>
+							<ExtendedTooltip name="ИдентификаторыОбъектовРасширеннаяПодсказка" id="182"/>
+							<SearchStringAddition name="ИдентификаторыОбъектовСтрокаПоиска" id="183">
+								<AdditionSource>
+									<Item>ИдентификаторыОбъектов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИдентификаторыОбъектовСтрокаПоискаКонтекстноеМеню" id="184"/>
+								<ExtendedTooltip name="ИдентификаторыОбъектовСтрокаПоискаРасширеннаяПодсказка" id="185"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ИдентификаторыОбъектовСостояниеПросмотра" id="186">
+								<AdditionSource>
+									<Item>ИдентификаторыОбъектов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИдентификаторыОбъектовСостояниеПросмотраКонтекстноеМеню" id="187"/>
+								<ExtendedTooltip name="ИдентификаторыОбъектовСостояниеПросмотраРасширеннаяПодсказка" id="188"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ИдентификаторыОбъектовУправлениеПоиском" id="189">
+								<AdditionSource>
+									<Item>ИдентификаторыОбъектов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ИдентификаторыОбъектовУправлениеПоискомКонтекстноеМеню" id="190"/>
+								<ExtendedTooltip name="ИдентификаторыОбъектовУправлениеПоискомРасширеннаяПодсказка" id="191"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ИдентификаторыОбъектовСайт" id="192">
+									<DataPath>ИдентификаторыОбъектов.Сайт</DataPath>
+									<ContextMenu name="ИдентификаторыОбъектовСайтКонтекстноеМеню" id="193"/>
+									<ExtendedTooltip name="ИдентификаторыОбъектовСайтРасширеннаяПодсказка" id="194"/>
+								</LabelField>
+								<LabelField name="ИдентификаторыОбъектовСсылка" id="195">
+									<DataPath>ИдентификаторыОбъектов.Ссылка</DataPath>
+									<ContextMenu name="ИдентификаторыОбъектовСсылкаКонтекстноеМеню" id="196"/>
+									<ExtendedTooltip name="ИдентификаторыОбъектовСсылкаРасширеннаяПодсказка" id="197"/>
+								</LabelField>
+								<LabelField name="ИдентификаторыОбъектовID" id="198">
+									<DataPath>ИдентификаторыОбъектов.ID</DataPath>
+									<ContextMenu name="ИдентификаторыОбъектовIDКонтекстноеМеню" id="199"/>
+									<ExtendedTooltip name="ИдентификаторыОбъектовIDРасширеннаяПодсказка" id="200"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаСостоянияОбменаЗадач" id="57">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состояния обмена задач</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница состояния обмена задач</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаСостоянияОбменаЗадачРасширеннаяПодсказка" id="58"/>
+					<ChildItems>
+						<Table name="СостоянияОбменаЗадач" id="59">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>СостоянияОбменаЗадач</DataPath>
+							<RowPictureDataPath>СостоянияОбменаЗадач.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СостоянияОбменаЗадачКонтекстноеМеню" id="60"/>
+							<AutoCommandBar name="СостоянияОбменаЗадачКоманднаяПанель" id="61"/>
+							<ExtendedTooltip name="СостоянияОбменаЗадачРасширеннаяПодсказка" id="62"/>
+							<SearchStringAddition name="СостоянияОбменаЗадачСтрокаПоиска" id="63">
+								<AdditionSource>
+									<Item>СостоянияОбменаЗадач</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СостоянияОбменаЗадачСтрокаПоискаКонтекстноеМеню" id="64"/>
+								<ExtendedTooltip name="СостоянияОбменаЗадачСтрокаПоискаРасширеннаяПодсказка" id="65"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СостоянияОбменаЗадачСостояниеПросмотра" id="66">
+								<AdditionSource>
+									<Item>СостоянияОбменаЗадач</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СостоянияОбменаЗадачСостояниеПросмотраКонтекстноеМеню" id="67"/>
+								<ExtendedTooltip name="СостоянияОбменаЗадачСостояниеПросмотраРасширеннаяПодсказка" id="68"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СостоянияОбменаЗадачУправлениеПоиском" id="69">
+								<AdditionSource>
+									<Item>СостоянияОбменаЗадач</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СостоянияОбменаЗадачУправлениеПоискомКонтекстноеМеню" id="70"/>
+								<ExtendedTooltip name="СостоянияОбменаЗадачУправлениеПоискомРасширеннаяПодсказка" id="71"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СостоянияОбменаЗадачСайт" id="72">
+									<DataPath>СостоянияОбменаЗадач.Сайт</DataPath>
+									<ContextMenu name="СостоянияОбменаЗадачСайтКонтекстноеМеню" id="73"/>
+									<ExtendedTooltip name="СостоянияОбменаЗадачСайтРасширеннаяПодсказка" id="74"/>
+								</LabelField>
+								<LabelField name="СостоянияОбменаЗадачЗадача" id="75">
+									<DataPath>СостоянияОбменаЗадач.Задача</DataPath>
+									<ContextMenu name="СостоянияОбменаЗадачЗадачаКонтекстноеМеню" id="76"/>
+									<ExtendedTooltip name="СостоянияОбменаЗадачЗадачаРасширеннаяПодсказка" id="77"/>
+								</LabelField>
+								<LabelField name="СостоянияОбменаЗадачДатаПоследнегоУспешногоОбмена" id="78">
+									<DataPath>СостоянияОбменаЗадач.ДатаПоследнегоУспешногоОбмена</DataPath>
+									<ContextMenu name="СостоянияОбменаЗадачДатаПоследнегоУспешногоОбменаКонтекстноеМеню" id="79"/>
+									<ExtendedTooltip name="СостоянияОбменаЗадачДатаПоследнегоУспешногоОбменаРасширеннаяПодсказка" id="80"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаИсторияОбменаОбъектов" id="209">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>История обмена объектов</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница история обмена объектов</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаИсторияОбменаОбъектовРасширеннаяПодсказка" id="210"/>
+					<ChildItems>
+						<Table name="ИсторияОбменаОбъектов" id="211">
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ИсторияОбменаОбъектов</DataPath>
+							<RowPictureDataPath>ИсторияОбменаОбъектов.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ИсторияОбменаОбъектовКонтекстноеМеню" id="212"/>
+							<AutoCommandBar name="ИсторияОбменаОбъектовКоманднаяПанель" id="213"/>
+							<ExtendedTooltip name="ИсторияОбменаОбъектовРасширеннаяПодсказка" id="214"/>
+							<SearchStringAddition name="ИсторияОбменаОбъектовСтрокаПоиска" id="215">
+								<AdditionSource>
+									<Item>ИсторияОбменаОбъектов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсторияОбменаОбъектовСтрокаПоискаКонтекстноеМеню" id="216"/>
+								<ExtendedTooltip name="ИсторияОбменаОбъектовСтрокаПоискаРасширеннаяПодсказка" id="217"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ИсторияОбменаОбъектовСостояниеПросмотра" id="218">
+								<AdditionSource>
+									<Item>ИсторияОбменаОбъектов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсторияОбменаОбъектовСостояниеПросмотраКонтекстноеМеню" id="219"/>
+								<ExtendedTooltip name="ИсторияОбменаОбъектовСостояниеПросмотраРасширеннаяПодсказка" id="220"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ИсторияОбменаОбъектовУправлениеПоиском" id="221">
+								<AdditionSource>
+									<Item>ИсторияОбменаОбъектов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсторияОбменаОбъектовУправлениеПоискомКонтекстноеМеню" id="222"/>
+								<ExtendedTooltip name="ИсторияОбменаОбъектовУправлениеПоискомРасширеннаяПодсказка" id="223"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ИсторияОбменаОбъектовПериод" id="224">
+									<DataPath>ИсторияОбменаОбъектов.Period</DataPath>
+									<ContextMenu name="ИсторияОбменаОбъектовПериодКонтекстноеМеню" id="225"/>
+									<ExtendedTooltip name="ИсторияОбменаОбъектовПериодРасширеннаяПодсказка" id="226"/>
+								</LabelField>
+								<LabelField name="ИсторияОбменаОбъектовСайт" id="227">
+									<DataPath>ИсторияОбменаОбъектов.Сайт</DataPath>
+									<ContextMenu name="ИсторияОбменаОбъектовСайтКонтекстноеМеню" id="228"/>
+									<ExtendedTooltip name="ИсторияОбменаОбъектовСайтРасширеннаяПодсказка" id="229"/>
+								</LabelField>
+								<LabelField name="ИсторияОбменаОбъектовОбъект" id="230">
+									<DataPath>ИсторияОбменаОбъектов.Объект</DataPath>
+									<ContextMenu name="ИсторияОбменаОбъектовОбъектКонтекстноеМеню" id="231"/>
+									<ExtendedTooltip name="ИсторияОбменаОбъектовОбъектРасширеннаяПодсказка" id="232"/>
+								</LabelField>
+								<LabelField name="ИсторияОбменаОбъектовСобытие" id="233">
+									<DataPath>ИсторияОбменаОбъектов.Событие</DataPath>
+									<ContextMenu name="ИсторияОбменаОбъектовСобытиеКонтекстноеМеню" id="234"/>
+									<ExtendedTooltip name="ИсторияОбменаОбъектовСобытиеРасширеннаяПодсказка" id="235"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаСтатистикаВыполненияЗапросов" id="236">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статистика выполнения запросов</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница статистика выполнения запросов</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаСтатистикаВыполненияЗапросовРасширеннаяПодсказка" id="237"/>
+					<ChildItems>
+						<Table name="СтатистикаВыполненияЗапросов" id="238">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>СтатистикаВыполненияЗапросов</DataPath>
+							<RowPictureDataPath>СтатистикаВыполненияЗапросов.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СтатистикаВыполненияЗапросовКонтекстноеМеню" id="239"/>
+							<AutoCommandBar name="СтатистикаВыполненияЗапросовКоманднаяПанель" id="240"/>
+							<ExtendedTooltip name="СтатистикаВыполненияЗапросовРасширеннаяПодсказка" id="241"/>
+							<SearchStringAddition name="СтатистикаВыполненияЗапросовСтрокаПоиска" id="242">
+								<AdditionSource>
+									<Item>СтатистикаВыполненияЗапросов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СтатистикаВыполненияЗапросовСтрокаПоискаКонтекстноеМеню" id="243"/>
+								<ExtendedTooltip name="СтатистикаВыполненияЗапросовСтрокаПоискаРасширеннаяПодсказка" id="244"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СтатистикаВыполненияЗапросовСостояниеПросмотра" id="245">
+								<AdditionSource>
+									<Item>СтатистикаВыполненияЗапросов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СтатистикаВыполненияЗапросовСостояниеПросмотраКонтекстноеМеню" id="246"/>
+								<ExtendedTooltip name="СтатистикаВыполненияЗапросовСостояниеПросмотраРасширеннаяПодсказка" id="247"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СтатистикаВыполненияЗапросовУправлениеПоиском" id="248">
+								<AdditionSource>
+									<Item>СтатистикаВыполненияЗапросов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СтатистикаВыполненияЗапросовУправлениеПоискомКонтекстноеМеню" id="249"/>
+								<ExtendedTooltip name="СтатистикаВыполненияЗапросовУправлениеПоискомРасширеннаяПодсказка" id="250"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СтатистикаВыполненияЗапросовДата" id="251">
+									<DataPath>СтатистикаВыполненияЗапросов.Дата</DataPath>
+									<ContextMenu name="СтатистикаВыполненияЗапросовДатаКонтекстноеМеню" id="252"/>
+									<ExtendedTooltip name="СтатистикаВыполненияЗапросовДатаРасширеннаяПодсказка" id="253"/>
+								</LabelField>
+								<LabelField name="СтатистикаВыполненияЗапросовСайт" id="254">
+									<DataPath>СтатистикаВыполненияЗапросов.Сайт</DataPath>
+									<ContextMenu name="СтатистикаВыполненияЗапросовСайтКонтекстноеМеню" id="255"/>
+									<ExtendedTooltip name="СтатистикаВыполненияЗапросовСайтРасширеннаяПодсказка" id="256"/>
+								</LabelField>
+								<LabelField name="СтатистикаВыполненияЗапросовМетод" id="257">
+									<DataPath>СтатистикаВыполненияЗапросов.Метод</DataPath>
+									<ContextMenu name="СтатистикаВыполненияЗапросовМетодКонтекстноеМеню" id="258"/>
+									<ExtendedTooltip name="СтатистикаВыполненияЗапросовМетодРасширеннаяПодсказка" id="259"/>
+								</LabelField>
+								<LabelField name="СтатистикаВыполненияЗапросовКоличество" id="260">
+									<DataPath>СтатистикаВыполненияЗапросов.Количество</DataPath>
+									<ContextMenu name="СтатистикаВыполненияЗапросовКоличествоКонтекстноеМеню" id="261"/>
+									<ExtendedTooltip name="СтатистикаВыполненияЗапросовКоличествоРасширеннаяПодсказка" id="262"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаВыгружаемыеОбъекты" id="130">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгружаемые объекты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница выгружаемые объекты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаВыгружаемыеОбъектыРасширеннаяПодсказка" id="131"/>
+					<ChildItems>
+						<Table name="ВыгружаемыеОбъекты" id="132">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ВыгружаемыеОбъекты</DataPath>
+							<RowPictureDataPath>ВыгружаемыеОбъекты.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ВыгружаемыеОбъектыКонтекстноеМеню" id="133"/>
+							<AutoCommandBar name="ВыгружаемыеОбъектыКоманднаяПанель" id="134"/>
+							<ExtendedTooltip name="ВыгружаемыеОбъектыРасширеннаяПодсказка" id="135"/>
+							<SearchStringAddition name="ВыгружаемыеОбъектыСтрокаПоиска" id="136">
+								<AdditionSource>
+									<Item>ВыгружаемыеОбъекты</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВыгружаемыеОбъектыСтрокаПоискаКонтекстноеМеню" id="137"/>
+								<ExtendedTooltip name="ВыгружаемыеОбъектыСтрокаПоискаРасширеннаяПодсказка" id="138"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ВыгружаемыеОбъектыСостояниеПросмотра" id="139">
+								<AdditionSource>
+									<Item>ВыгружаемыеОбъекты</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВыгружаемыеОбъектыСостояниеПросмотраКонтекстноеМеню" id="140"/>
+								<ExtendedTooltip name="ВыгружаемыеОбъектыСостояниеПросмотраРасширеннаяПодсказка" id="141"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ВыгружаемыеОбъектыУправлениеПоиском" id="142">
+								<AdditionSource>
+									<Item>ВыгружаемыеОбъекты</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ВыгружаемыеОбъектыУправлениеПоискомКонтекстноеМеню" id="143"/>
+								<ExtendedTooltip name="ВыгружаемыеОбъектыУправлениеПоискомРасширеннаяПодсказка" id="144"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ВыгружаемыеОбъектыСайт" id="206">
+									<DataPath>ВыгружаемыеОбъекты.Сайт</DataPath>
+									<ContextMenu name="ВыгружаемыеОбъектыСайтКонтекстноеМеню" id="207"/>
+									<ExtendedTooltip name="ВыгружаемыеОбъектыСайтРасширеннаяПодсказка" id="208"/>
+								</LabelField>
+								<LabelField name="ВыгружаемыеОбъектыСсылка" id="145">
+									<DataPath>ВыгружаемыеОбъекты.Ссылка</DataPath>
+									<ContextMenu name="ВыгружаемыеОбъектыСсылкаКонтекстноеМеню" id="146"/>
+									<ExtendedTooltip name="ВыгружаемыеОбъектыСсылкаРасширеннаяПодсказка" id="147"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаЗаблокированныеОбъектыДляЗагрузки" id="263">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заблокированные объекты для загрузки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница заблокированные объекты для загрузки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаЗаблокированныеОбъектыДляЗагрузкиРасширеннаяПодсказка" id="264"/>
+					<ChildItems>
+						<Table name="ЗаблокированныеОбъектыДляЗагрузки" id="265">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ЗаблокированныеОбъектыДляЗагрузки</DataPath>
+							<RowPictureDataPath>ЗаблокированныеОбъектыДляЗагрузки.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ЗаблокированныеОбъектыДляЗагрузкиКонтекстноеМеню" id="266"/>
+							<AutoCommandBar name="ЗаблокированныеОбъектыДляЗагрузкиКоманднаяПанель" id="267"/>
+							<ExtendedTooltip name="ЗаблокированныеОбъектыДляЗагрузкиРасширеннаяПодсказка" id="268"/>
+							<SearchStringAddition name="ЗаблокированныеОбъектыДляЗагрузкиСтрокаПоиска" id="269">
+								<AdditionSource>
+									<Item>ЗаблокированныеОбъектыДляЗагрузки</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗаблокированныеОбъектыДляЗагрузкиСтрокаПоискаКонтекстноеМеню" id="270"/>
+								<ExtendedTooltip name="ЗаблокированныеОбъектыДляЗагрузкиСтрокаПоискаРасширеннаяПодсказка" id="271"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ЗаблокированныеОбъектыДляЗагрузкиСостояниеПросмотра" id="272">
+								<AdditionSource>
+									<Item>ЗаблокированныеОбъектыДляЗагрузки</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗаблокированныеОбъектыДляЗагрузкиСостояниеПросмотраКонтекстноеМеню" id="273"/>
+								<ExtendedTooltip name="ЗаблокированныеОбъектыДляЗагрузкиСостояниеПросмотраРасширеннаяПодсказка" id="274"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ЗаблокированныеОбъектыДляЗагрузкиУправлениеПоиском" id="275">
+								<AdditionSource>
+									<Item>ЗаблокированныеОбъектыДляЗагрузки</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗаблокированныеОбъектыДляЗагрузкиУправлениеПоискомКонтекстноеМеню" id="276"/>
+								<ExtendedTooltip name="ЗаблокированныеОбъектыДляЗагрузкиУправлениеПоискомРасширеннаяПодсказка" id="277"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ЗаблокированныеОбъектыДляЗагрузкиСайт" id="278">
+									<DataPath>ЗаблокированныеОбъектыДляЗагрузки.Сайт</DataPath>
+									<ContextMenu name="ЗаблокированныеОбъектыДляЗагрузкиСайтКонтекстноеМеню" id="279"/>
+									<ExtendedTooltip name="ЗаблокированныеОбъектыДляЗагрузкиСайтРасширеннаяПодсказка" id="280"/>
+								</LabelField>
+								<LabelField name="ЗаблокированныеОбъектыДляЗагрузкиОбъект" id="281">
+									<DataPath>ЗаблокированныеОбъектыДляЗагрузки.Объект</DataPath>
+									<ContextMenu name="ЗаблокированныеОбъектыДляЗагрузкиОбъектКонтекстноеМеню" id="282"/>
+									<ExtendedTooltip name="ЗаблокированныеОбъектыДляЗагрузкиОбъектРасширеннаяПодсказка" id="283"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.b24_Администрирование</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Сайты" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сайты</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.b24_СайтИнтеграции</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="НастройкиИнтеграций" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки интеграций</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.b24_НастройкиИнтеграций</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="СостоянияОбменаЗадач" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояния обмена задач</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.b24_СостоянияОбменаЗадач</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="СтатусыЗадачСайта" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статусы задач сайта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.b24_СтатусыЗадачСайта</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ВыгружаемыеОбъекты" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгружаемые объекты</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.b24_ВыгружаемыеОбъекты</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ИдентификаторыОбъектов" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификаторы объектов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.b24_ИдентификаторыОбъектов</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ИсторияОбменаОбъектов" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>История обмена объектов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.b24_ИсторияОбменаОбъектов</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="СтатистикаВыполненияЗапросов" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статистика выполнения запросов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.b24_СтатистикаВыполненияЗапросов</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ЗаблокированныеОбъектыДляЗагрузки" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заблокированные объекты для загрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.b24_ЗаблокированныеОбъектыДляЗагрузки</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>

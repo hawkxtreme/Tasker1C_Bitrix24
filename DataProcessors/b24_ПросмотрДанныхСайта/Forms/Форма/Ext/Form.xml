@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаКоманда_ПроверкаСвязи" id="1">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.Команда_ПолучитьДанные</CommandName>
+				<ExtendedTooltip name="ФормаКоманда_ПроверкаСвязиРасширеннаяПодсказка" id="2"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Сайт" id="3">
+			<DataPath>Объект.Сайт</DataPath>
+			<ContextMenu name="СайтКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="СайтРасширеннаяПодсказка" id="5"/>
+		</InputField>
+		<CheckBoxField name="ЗагружатьПользователей" id="58">
+			<DataPath>ЗагружатьПользователей</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЗагружатьПользователейКонтекстноеМеню" id="59"/>
+			<ExtendedTooltip name="ЗагружатьПользователейРасширеннаяПодсказка" id="60"/>
+		</CheckBoxField>
+		<CheckBoxField name="ЗагружатьЗадачи" id="55">
+			<DataPath>ЗагружатьЗадачи</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЗагружатьЗадачиКонтекстноеМеню" id="56"/>
+			<ExtendedTooltip name="ЗагружатьЗадачиРасширеннаяПодсказка" id="57"/>
+		</CheckBoxField>
+		<Pages name="Страницы" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="7"/>
+			<ChildItems>
+				<Page name="СтраницаДоступныеПоля" id="8">
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доступные поля</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница доступные поля</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаДоступныеПоляРасширеннаяПодсказка" id="9"/>
+					<ChildItems>
+						<Table name="ДоступныеПоля" id="10">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ДоступныеПоля</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДоступныеПоляКонтекстноеМеню" id="11"/>
+							<AutoCommandBar name="ДоступныеПоляКоманднаяПанель" id="12"/>
+							<ExtendedTooltip name="ДоступныеПоляРасширеннаяПодсказка" id="13"/>
+							<SearchStringAddition name="ДоступныеПоляСтрокаПоиска" id="14">
+								<AdditionSource>
+									<Item>ДоступныеПоля</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДоступныеПоляСтрокаПоискаКонтекстноеМеню" id="15"/>
+								<ExtendedTooltip name="ДоступныеПоляСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДоступныеПоляСостояниеПросмотра" id="17">
+								<AdditionSource>
+									<Item>ДоступныеПоля</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДоступныеПоляСостояниеПросмотраКонтекстноеМеню" id="18"/>
+								<ExtendedTooltip name="ДоступныеПоляСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДоступныеПоляУправлениеПоиском" id="20">
+								<AdditionSource>
+									<Item>ДоступныеПоля</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДоступныеПоляУправлениеПоискомКонтекстноеМеню" id="21"/>
+								<ExtendedTooltip name="ДоступныеПоляУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+							</SearchControlAddition>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПользовательскиеПоля" id="61">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользовательские поля</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница пользовательские поля</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаПользовательскиеПоляРасширеннаяПодсказка" id="62"/>
+					<ChildItems>
+						<Table name="ПользовательскиеПоля" id="63">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ПользовательскиеПоля</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПользовательскиеПоляКонтекстноеМеню" id="64"/>
+							<AutoCommandBar name="ПользовательскиеПоляКоманднаяПанель" id="65"/>
+							<ExtendedTooltip name="ПользовательскиеПоляРасширеннаяПодсказка" id="66"/>
+							<SearchStringAddition name="ПользовательскиеПоляСтрокаПоиска" id="67">
+								<AdditionSource>
+									<Item>ПользовательскиеПоля</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПользовательскиеПоляСтрокаПоискаКонтекстноеМеню" id="68"/>
+								<ExtendedTooltip name="ПользовательскиеПоляСтрокаПоискаРасширеннаяПодсказка" id="69"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПользовательскиеПоляСостояниеПросмотра" id="70">
+								<AdditionSource>
+									<Item>ПользовательскиеПоля</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПользовательскиеПоляСостояниеПросмотраКонтекстноеМеню" id="71"/>
+								<ExtendedTooltip name="ПользовательскиеПоляСостояниеПросмотраРасширеннаяПодсказка" id="72"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПользовательскиеПоляУправлениеПоиском" id="73">
+								<AdditionSource>
+									<Item>ПользовательскиеПоля</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПользовательскиеПоляУправлениеПоискомКонтекстноеМеню" id="74"/>
+								<ExtendedTooltip name="ПользовательскиеПоляУправлениеПоискомРасширеннаяПодсказка" id="75"/>
+							</SearchControlAddition>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаВсеЗадачи" id="23">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Все задачи</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница все задачи</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаВсеЗадачиРасширеннаяПодсказка" id="24"/>
+					<ChildItems>
+						<Table name="ВсеЗадачи" id="25">
+							<Representation>List</Representation>
+							<ReadOnly>true</ReadOnly>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ВсеЗадачи</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ВсеЗадачиКонтекстноеМеню" id="26"/>
+							<AutoCommandBar name="ВсеЗадачиКоманднаяПанель" id="27"/>
+							<ExtendedTooltip name="ВсеЗадачиРасширеннаяПодсказка" id="28"/>
+							<SearchStringAddition name="ВсеЗадачиСтрокаПоиска" id="29">
+								<AdditionSource>
+									<Item>ВсеЗадачи</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВсеЗадачиСтрокаПоискаКонтекстноеМеню" id="30"/>
+								<ExtendedTooltip name="ВсеЗадачиСтрокаПоискаРасширеннаяПодсказка" id="31"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ВсеЗадачиСостояниеПросмотра" id="32">
+								<AdditionSource>
+									<Item>ВсеЗадачи</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВсеЗадачиСостояниеПросмотраКонтекстноеМеню" id="33"/>
+								<ExtendedTooltip name="ВсеЗадачиСостояниеПросмотраРасширеннаяПодсказка" id="34"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ВсеЗадачиУправлениеПоиском" id="35">
+								<AdditionSource>
+									<Item>ВсеЗадачи</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ВсеЗадачиУправлениеПоискомКонтекстноеМеню" id="36"/>
+								<ExtendedTooltip name="ВсеЗадачиУправлениеПоискомРасширеннаяПодсказка" id="37"/>
+							</SearchControlAddition>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПользователи" id="40">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователи</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница пользователи</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаПользователиРасширеннаяПодсказка" id="41"/>
+					<ChildItems>
+						<Table name="ВсеПользователи" id="42">
+							<Representation>List</Representation>
+							<ReadOnly>true</ReadOnly>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ВсеПользователи</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ВсеПользователиКонтекстноеМеню" id="43"/>
+							<AutoCommandBar name="ВсеПользователиКоманднаяПанель" id="44"/>
+							<ExtendedTooltip name="ВсеПользователиРасширеннаяПодсказка" id="45"/>
+							<SearchStringAddition name="ВсеПользователиСтрокаПоиска" id="46">
+								<AdditionSource>
+									<Item>ВсеПользователи</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВсеПользователиСтрокаПоискаКонтекстноеМеню" id="47"/>
+								<ExtendedTooltip name="ВсеПользователиСтрокаПоискаРасширеннаяПодсказка" id="48"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ВсеПользователиСостояниеПросмотра" id="49">
+								<AdditionSource>
+									<Item>ВсеПользователи</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВсеПользователиСостояниеПросмотраКонтекстноеМеню" id="50"/>
+								<ExtendedTooltip name="ВсеПользователиСостояниеПросмотраРасширеннаяПодсказка" id="51"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ВсеПользователиУправлениеПоиском" id="52">
+								<AdditionSource>
+									<Item>ВсеПользователи</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ВсеПользователиУправлениеПоискомКонтекстноеМеню" id="53"/>
+								<ExtendedTooltip name="ВсеПользователиУправлениеПоискомРасширеннаяПодсказка" id="54"/>
+							</SearchControlAddition>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.b24_ПросмотрДанныхСайта</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Save>
+				<Field>Объект.Сайт</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ДоступныеПоля" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доступные поля</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОписаниеДетализации" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание детализации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Имя" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Тип" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8:TypeDescription</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ИмяТаблицы" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя таблицы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ПутьКДанным" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Путь к данным</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ВсеЗадачи" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Все задачи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ВсеПользователи" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Все пользователи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПользовательскиеПоля" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользовательские поля</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗагружатьПользователей" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загружать пользователей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗагружатьЗадачи" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загружать задачи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Команда_ПолучитьДанные" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда получить данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Команда_ПолучитьДанные</Action>
+		</Command>
+	</Commands>
+</Form>
